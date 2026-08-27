@@ -1,3 +1,15 @@
 body{
 	text-align: center;
 }
+
+table {
+  width: 80%; /* Definiert die Gesamtbreite der Tabelle */
+  table-layout: fixed; /* Erzwingt die feste Spaltenberechnung */
+}
+
+td {
+  width: 11.11%; /* Bei 3 Spalten: 100% geteilt durch 3 */
+  overflow: hidden; /* Verhindert das Ausbrechen von zu langem Text */
+  text-overflow: ellipsis; /* Fügt ... bei abgeschnittenem Text ein (optional) */
+  white-space: nowrap; /* Verhindert automatischen Zeilenumbruch (optional) */
+}
