@@ -17,7 +17,7 @@ function e_tabel(arr, head = false){
     for(let i = 0; i<arr.length; i++){ // Zeilen
         temp += "<tr>";
         for(let j = 0; j <= arr[i].length; j++){ //Zellen
-            temp += "<td>" + arr[i] + "</td>";
+            temp += "<td>" + arr[i][j] + "</td>";
         }
         temp += "</tr>";
     }
