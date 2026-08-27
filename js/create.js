@@ -6,6 +6,7 @@ function e_button(text, onc=""){
     	butt += " onclick='" + onc + "'";
     }
     butt += ">" + text + "</button>";
+    console.log(structuredClone(butt));
     return butt;
 }
 
@@ -17,9 +18,13 @@ function e_tabel(arr, head = false){
         temp += "<tr>" + arr[i] + "</tr>";
     }
     temp += "</tabel>";
+    console.log(structuredClone(temp));
+    return temp;
 }
 
 function e_input(){
     let temp = "";
     temp += "<input></input>"
+    console.log(structuredClone(temp));
+    return temp;
 }
