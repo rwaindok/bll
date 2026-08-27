@@ -5,5 +5,6 @@ function e_button(text, onc=""){
     if(onc!=""){
     	butt += " onclick='" + onc + "'";
     }
-    butt += ">" + text + "</button>"
+    butt += ">" + text + "</button>";
+    return butt;
 }
