@@ -10,9 +10,9 @@ function e_button(text, onc=""){
     return butt;
 }
 
-function e_tabel(arr, head = false){
+function e_table(arr, head = false){
     let temp = "";
-    temp += "<tabel id='t" + id + "'>";
+    temp += "<table id='t" + id + "'>";
     id++;
     for(let i = 0; i < arr.length; i++){ // Zeilen
         temp += "<tr>";
@@ -21,7 +21,7 @@ function e_tabel(arr, head = false){
         }
         temp += "</tr>";
     }
-    temp += "</tabel>";
+    temp += "</table>";
     console.log(structuredClone(temp));
     return temp;
 }
