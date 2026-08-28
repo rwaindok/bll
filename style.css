@@ -5,6 +5,8 @@ body{
 table {
   width: 80%; /* Definiert die Gesamtbreite der Tabelle */
   table-layout: fixed; /* Erzwingt die feste Spaltenberechnung */
+  margin: solid rgba(22, 197, 255, 0.836);
+  border-radius: 15%;
 }
 
 td {
@@ -12,7 +14,6 @@ td {
   overflow: hidden; /* Verhindert das Ausbrechen von zu langem Text */
   text-overflow: ellipsis; /* Fügt ... bei abgeschnittenem Text ein (optional) */
   white-space: nowrap; /* Verhindert automatischen Zeilenumbruch (optional) */
-  border: solid black;
 }
 
 button {
