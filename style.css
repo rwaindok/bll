@@ -5,8 +5,9 @@ body{
 table {
   width: 80%; /* Definiert die Gesamtbreite der Tabelle */
   table-layout: fixed; /* Erzwingt die feste Spaltenberechnung */
-  margin: solid rgba(22, 197, 255, 0.836);
-  border-radius: 15%;
+  border: solid rgba(22, 197, 255, 0.836);
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
 td {
