@@ -13,3 +13,8 @@ td {
   text-overflow: ellipsis; /* Fügt ... bei abgeschnittenem Text ein (optional) */
   white-space: nowrap; /* Verhindert automatischen Zeilenumbruch (optional) */
 }
+
+button {
+  background-color: rgba(254, 239, 171, 0.881);
+  border-radius: 4px;
+}
