@@ -12,6 +12,7 @@ td {
   overflow: hidden; /* Verhindert das Ausbrechen von zu langem Text */
   text-overflow: ellipsis; /* Fügt ... bei abgeschnittenem Text ein (optional) */
   white-space: nowrap; /* Verhindert automatischen Zeilenumbruch (optional) */
+  border: solid black;
 }
 
 button {
