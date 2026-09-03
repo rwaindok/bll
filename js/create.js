@@ -1,3 +1,5 @@
+"use strict"
+
 function e_button(text, onc=""){
 	let butt = "";
     butt += "<button id='b" + id + "'";
@@ -26,9 +28,9 @@ function e_table(arr, head = false){
     return temp;
 }
 
-function e_input(){     step(i7)
+function e_input(){
     let temp = "";
-    temp += "<input id='i" + id + "' onkeydown='if(event.keyCode===13)step(" + "\"i" + id + "\"" +")'></input>";
+    temp += "<input id='i" + id + "' onkeydown='if(event.keyCode===13) step(this.value)'></input>";
     id++;
     console.log(structuredClone(temp));
     return temp;

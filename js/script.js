@@ -1,13 +1,15 @@
-//global vars
-id = 1;
-func = [];
-verl = [];
+"use strict"
 
-setup()
+//global vars
+let id = 1;
+let func = [];
+let verl = [];
+
+setup();
 
 
 function setup(){
-	document.getElementById("s0").innerHTML = e_button("start", "start()")
+	document.getElementById("s0").innerHTML = e_button("start", "start()");
 }
 
 function start(){
@@ -23,5 +25,5 @@ function start(){
 }
 
 function step(i_id){
-
+	console.log(i_id);
 }
