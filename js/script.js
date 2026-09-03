@@ -21,3 +21,7 @@ function start(){
 	console.log(structuredClone(temp));
 	document.getElementById("s0").innerHTML = temp;
 }
+
+function step(i_id){
+
+}

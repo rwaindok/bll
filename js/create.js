@@ -26,9 +26,10 @@ function e_table(arr, head = false){
     return temp;
 }
 
-function e_input(){
+function e_input(){     step(i7)
     let temp = "";
-    temp += "<input></input>"
+    temp += "<input id='i" + id + "' onkeydown='if(event.keyCode===13)step(" + "\"i" + id + "\"" +")'></input>";
+    id++;
     console.log(structuredClone(temp));
     return temp;
 }
